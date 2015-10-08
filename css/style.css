@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* unvisited link */
+a:link {
+    color: #fff;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fff;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #fff;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: ShadowsIntoLight; src: url('ShadowsIntoLight.ttf');
+}
+
+@font-face {
+	font-family: ShadowsIntoLight, font-weight: bold; src: url('ShadowsIntoLight.ttf');
+}
+
+body {
+	color:#fff;
+	background:#272727 url(../img/b.png) top left repeat;
+}
+
+#img {
+	color:#fff;
+	background:#272727 url(../img/bg.png) top left repeat;
+}
+
+#body {
+	font-family: 'ShadowsIntoLight';
+	font:48px 'ShadowsIntoLight';
+	margin:200px;
+	padding:0px;
+}
+
+#question {
+	text-align:center;
+}
+
+#questionleft {
+	margin-left:150px;
+	padding:87px 0px 0px 44px;
+	float:left;
+	font-size:48px;
+}
+
+#questionright {
+	margin-right:150px;
+	padding:87px 0px 0px 44px;
+	float:right;
+	font-size:48px;
+}
+
+#answers {
+	height:250px;
+	width:750px;
+	margin-left:500px;
+}
+
+#answerleft {
+	padding:87px 0px 0px 44px;
+	float:left;
+	font-size:48px;
+}
+
+#answerright {
+	padding:87px 0px 0px 44px;
+	float:right;
+	font-size:48px;
+}
